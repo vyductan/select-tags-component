@@ -1,6 +1,6 @@
-import type { SelectProps } from "@acme/ui/select";
-import { Select, SelectRoot, SelectTrigger } from "@acme/ui/select";
-import { Tag } from "@acme/ui/tag";
+import type { SelectProps } from "@acme/ui/components/select";
+import { Select, SelectRoot, SelectTrigger } from "@acme/ui/components/select";
+import { Tag } from "@acme/ui/components/tag";
 
 type SelectTagsProps = Omit<SelectProps, "value"> & {
   value?: string[];
